@@ -2,28 +2,32 @@
 
 # _Mr.Roboger's Neighborhood (Code-Challenge)_
 
-#### By _**{List of contributors}**_
+#### By _**Derrak Richard**_
 
-#### _{Brief description of application}_
+#### _Mr.Roboger's Neighborhood takes a number from the user and returns a range of numbers from 0 to the user inputted number with substitutions made within the returned range_
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* JavaScript
+* jQuery
+* HTML
+* CSS
+
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_Mr.Roboger's Neighborhood takes a number from the user and returns a range of numbers from 0 to the user inputted number with the following substitutions made within the returned range:_
 
+* Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+            
+  * For example, all digits of the number 109 would be replaced with "Beep!"
 
+* Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+  
+  * For example, all digits of the number 2099 would be replaced with "Boop!"
 
-
-
-
-
-
+* Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
+  * For example, all digits of the number 32 would be replaced with "Won't you be my neighbor?"
 
 
 ## Specifications
@@ -43,39 +47,20 @@ Code: beepBoop(5);
 Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* _Clone the repository to your desktop_
+* _Navigate to the top level of the directory_
+* _open index.html in your browser_
+* _enter a numeric value into the box provided_
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs_
 
 ## License
+MIT License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_Copyright (c) 2022 Derrak Richard_
 
-Copyright (c) _date_ _author name(s)_
