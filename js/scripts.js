@@ -4,8 +4,9 @@ $(document).ready(function() {
     const userInputNumberString = $("input#number1").val();
     let outputArray = beepBoop(userInputNumberString);
     let outputText = beepBoop(userInputNumberString).join(" ");
-    $("#output").append(outputText);
+    $("#output").text(outputText);
     $("#story").show();
+    $("#form").get(0).reset()
   });
 });
 
