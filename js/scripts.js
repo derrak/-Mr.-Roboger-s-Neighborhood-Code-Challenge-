@@ -1,3 +1,15 @@
+$(document).ready(function() {
+  $("#form").submit(function(event) {
+    event.preventDefault();
+    const userInputNumberString = $("input#number1").val();
+    let outputArray = beepBoop(userInputNumberString);
+    let outputText = beepBoop(userInputNumberString).join(" ");
+    $("#output").append(outputText);
+    $("#story").show();
+  });
+});
+
+//const userInputNumberString = "24";
 function beepBoop(userInputNumberString) {
   const userInt = parseInt(userInputNumberString,10);
   let numberRangeArray = [];
@@ -21,21 +33,12 @@ function beepBoop(userInputNumberString) {
       boopedArray.push(element);
     };
   });
-  console.log(numberRangeArray);
-  console.log(boopedArray);
-  };
-
-
-// const userInputNumberString = "24";
-// beepBoop(userInputNumberString);
+  return boopedArray;
+};
+ //console.log(outputText);
 
 
 
-$(document).ready(function() {
-  $("#formOne").submit(function(event) {
-    event.preventDefault();
-    const userInputNumberString = $("input#number1").val();
-    beepBoop(userInputNumberString);
 
 
 
