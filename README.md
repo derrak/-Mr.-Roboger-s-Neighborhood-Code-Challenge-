@@ -31,20 +31,33 @@ _Mr.Roboger's Neighborhood takes a number from the user and returns a range of n
 
 
 ## Specifications
-Describe: beepBoop()
+### Describe: beepBoop()
+
+---
+
 Test: "It should return an array of numbers from 0 to the user's inputted number"
+
 Code: beepBoop(5);
+
 Expected Output: [0, 1, 2, 3, 4, 5]
 
-Describe: beepBoop()
+---
+
 Test: "It should return an array with any number that contained a 3 replaced with "Won't you be my neighbor?"
+
 Code: beepBoop(5);
+
 Expected Output: [0, 1, 2, "Won't you be my neighbor?", 4, 5]
 
-Describe: beepBoop()
+---
+
 Test: "It should also return an array with any number that contained a 2 replaced with "Boop!?"
+
 Code: beepBoop(5);
+
 Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]
+
+---
 
 
 ## Setup/Installation Requirements

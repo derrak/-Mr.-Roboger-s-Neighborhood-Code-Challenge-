@@ -1,5 +1,3 @@
-
-
 function beepBoop(userInputNumberString) {
   const userInt = parseInt(userInputNumberString,10);
   let numberRangeArray = [];
@@ -28,8 +26,17 @@ function beepBoop(userInputNumberString) {
   };
 
 
-const userInputNumberString = "14";
-beepBoop(userInputNumberString);
+// const userInputNumberString = "24";
+// beepBoop(userInputNumberString);
+
+
+
+$(document).ready(function() {
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
+    const userInputNumberString = $("input#number1").val();
+    beepBoop(userInputNumberString);
+
 
 
   
