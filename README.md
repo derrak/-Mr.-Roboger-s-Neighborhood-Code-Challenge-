@@ -37,7 +37,10 @@ Test: "It should return an array with any number that contained a 3 replaced wit
 Code: beepBoop(5);
 Expected Output: [0, 1, 2, "Won't you be my neighbor?", 4, 5]
 
-
+Describe: beepBoop()
+Test: "It should also return an array with any number that contained a 2 replaced with "Boop!?"
+Code: beepBoop(5);
+Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]
 
 
 

@@ -13,6 +13,12 @@ function beepBoop(userInputNumberString) {
     if (element.includes("3")) {
       boopedArray.push("Won't you be my neighbor?");
     }
+    else if (element.includes("2")) {
+      boopedArray.push("Boop!");
+    }
+    else if (element.includes("1")) {
+      boopedArray.push("Beep!");
+    }
     else {
       boopedArray.push(element);
     };
@@ -22,7 +28,7 @@ function beepBoop(userInputNumberString) {
   };
 
 
-const userInputNumberString = "5";
+const userInputNumberString = "14";
 beepBoop(userInputNumberString);
 
 
