@@ -5,6 +5,7 @@
 #### By _**Derrak Richard**_
 
 #### _Mr.Roboger's Neighborhood takes a number from the user and returns a range of numbers from 0 to the user inputted number with substitutions made within the returned range_
+_Check out the working example [here](https://derrak.github.io/-Mr.-Roboger-s-Neighborhood-Code-Challenge-/)_
 
 ## Technologies Used
 
@@ -70,7 +71,7 @@ Expected Output: [0, 1, "Boop!", "Won't you be my neighbor?", 4, 5]
 
 ## Known Bugs
 
-* _No known bugs_
+* _Currently does not check or inform the user if enterd value is not a number_
 
 ## License
 MIT License
